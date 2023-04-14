@@ -13,7 +13,7 @@ basic.forever(function () {
     } else if (available_distance > 10) {
         radio.sendValue("Unavailable", 2)
     } else if (available_distance == 0) {
-        radio.sendValue("Error", 2)
+        radio.sendValue("Error", 3)
     } else {
     	
     }
