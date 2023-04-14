@@ -9,9 +9,9 @@ basic.forever(function () {
     )
     basic.showNumber(available_distance)
     if (available_distance > 20) {
-        radio.sendValue("Available", 0)
+        radio.sendValue("Available", 1)
     } else if (available_distance > 10) {
-        radio.sendValue("Unavailable", 1)
+        radio.sendValue("Unavailable", 2)
     } else if (available_distance == 0) {
         radio.sendValue("Error", 2)
     } else {
