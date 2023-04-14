@@ -1,5 +1,5 @@
 let available_distance = 0
-radio.setGroup(0)
+radio.setGroup(11)
 radio.setTransmitPower(7)
 basic.forever(function () {
     available_distance = sonar.ping(
