@@ -1,5 +1,5 @@
 {
-    "name": "自動沖厠n可用sonar",
+    "name": "自動沖厠&可用sonar",
     "description": "",
     "dependencies": {
         "core": "*",

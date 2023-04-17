@@ -17,5 +17,5 @@ basic.forever(function () {
     } else {
     	
     }
-    basic.pause(1000)
+    basic.pause(100)
 })
